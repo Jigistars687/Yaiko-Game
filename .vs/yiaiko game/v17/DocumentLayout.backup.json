@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects_U\\yiaiko game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game\\assets\\skripts\\yaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\yaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|d:\\projects_u\\yiaiko game\\assets\\skripts\\cubes anim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\cubes anim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game\\assets\\skripts\\end_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\end_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game\\assets\\skripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game\\assets\\skripts\\playbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\playbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game\\assets\\skripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game\\assets\\skripts\\musiclooper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\musiclooper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game\\assets\\skripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DCFAA23-1ADC-17F3-5B28-B008643FE255}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CUBES ANIM.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\CUBES ANIM.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\CUBES ANIM.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\CUBES ANIM.cs",
+              "RelativeToolTip": "Assets\\Skripts\\CUBES ANIM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T16:32:48.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayButton.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\PlayButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\PlayButton.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\PlayButton.cs",
+              "RelativeToolTip": "Assets\\Skripts\\PlayButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T15:45:00.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TImer.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\TImer.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\TImer.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\TImer.cs",
+              "RelativeToolTip": "Assets\\Skripts\\TImer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T15:39:24.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "END_GAME.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\END_GAME.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\END_GAME.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\END_GAME.cs",
+              "RelativeToolTip": "Assets\\Skripts\\END_GAME.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T12:00:05.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MusicLooper.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\MusicLooper.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\MusicLooper.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\MusicLooper.cs",
+              "RelativeToolTip": "Assets\\Skripts\\MusicLooper.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:56:02.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThirdPersonCamera.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\ThirdPersonCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\ThirdPersonCamera.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\ThirdPersonCamera.cs",
+              "RelativeToolTip": "Assets\\Skripts\\ThirdPersonCamera.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwEQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T17:25:18.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "camera.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\camera.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\camera.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\camera.cs",
+              "RelativeToolTip": "Assets\\Skripts\\camera.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAIBJwGsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T17:12:37.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Yaiko.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\Yaiko.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\Yaiko.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game\\Assets\\Skripts\\Yaiko.cs",
+              "RelativeToolTip": "Assets\\Skripts\\Yaiko.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:45:00.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

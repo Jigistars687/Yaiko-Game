@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|d:\\projects_u\\yiaiko game_new_editor\\assets\\skripts\\end_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\end_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|d:\\projects_u\\yiaiko game_new_editor\\assets\\skripts\\records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\records.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game_NEW_EDITOR\\assets\\skripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game_NEW_EDITOR\\assets\\skripts\\yaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\yaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game_NEW_EDITOR\\assets\\skripts\\music_slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\music_slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game_NEW_EDITOR\\assets\\skripts\\anim_arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\anim_arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|D:\\projects_U\\yiaiko game_NEW_EDITOR\\assets\\skripts\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A21E73A-A974-1E6B-288A-B784302807A6}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Records.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\Records.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\Records.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\Records.cs",
+              "RelativeToolTip": "Assets\\Skripts\\Records.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T11:38:58.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Yaiko.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\Yaiko.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\Yaiko.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\Yaiko.cs",
+              "RelativeToolTip": "Assets\\Skripts\\Yaiko.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T09:41:23.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Music_Slider.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\Music_Slider.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\Music_Slider.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\Music_Slider.cs",
+              "RelativeToolTip": "Assets\\Skripts\\Music_Slider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T17:32:19.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TImer.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\TImer.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\TImer.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\TImer.cs",
+              "RelativeToolTip": "Assets\\Skripts\\TImer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T12:51:15.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "END_GAME.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\END_GAME.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\END_GAME.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\END_GAME.cs",
+              "RelativeToolTip": "Assets\\Skripts\\END_GAME.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T20:29:23.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExitButton.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\ExitButton.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\ExitButton.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\ExitButton.cs",
+              "RelativeToolTip": "Assets\\Skripts\\ExitButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T20:29:19.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Anim_Arrow.cs",
+              "DocumentMoniker": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\Anim_Arrow.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\Anim_Arrow.cs",
+              "ToolTip": "D:\\projects_U\\yiaiko game_NEW_EDITOR\\Assets\\Skripts\\Anim_Arrow.cs",
+              "RelativeToolTip": "Assets\\Skripts\\Anim_Arrow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T20:28:09.553Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
