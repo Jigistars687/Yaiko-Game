@@ -3,34 +3,28 @@ using UnityEngine;
 
 public class EggMovement : MonoBehaviour
 {
-
     private Rigidbody rb;
-    private int jumpCount = 0;
-    private int maxJumps = 2;
-    private bool finished = false;
 
-
-    [Header("��������")]
+    [Header("Параметры")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 2f;
-    [SerializeField] private GameObject Jump_Effect;
+    [SerializeField] private int maxJumps = 2;
 
-    [Header("����� ������������")]
-    [SerializeField] private Transform _nest;
-    [SerializeField] private Transform _Finish_Tag;
-    [SerializeField] private Transform _Lava_TP;
-    [SerializeField] private Transform _Finish;
-    [SerializeField] private Transform _finishCameraTransform;
-
-    [Header("UI � ������")]
+    [Header("UI и камера")]
     [SerializeField] private GameObject _Setting_Canvas;
     [SerializeField] private Transform _cameraTransform;
-    [SerializeField] private Camera _camera;
+
+    [Header("Jump Effect")]
+    [SerializeField] private GameObject Jump_Effect;
+
+    private int jumpCount = 0;
+    private TELEPORT_SCRIPTS teleportScripts;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        Cursor.lockState = CursorLockMode.Locked; 
+        teleportScripts = GetComponent<TELEPORT_SCRIPTS>();
+        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
@@ -50,6 +44,36 @@ public class EggMovement : MonoBehaviour
         rb.linearVelocity = new Vector3(moveDirection.x, rb.linearVelocity.y, moveDirection.z);
     }
 
+    void Jump()
+    {
+        if (CanJump() && Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
+            IncrementJump();
+        }
+    }
+
+    bool CanJump()
+    {
+        return jumpCount < maxJumps;
+    }
+
+    void IncrementJump()
+    {
+        jumpCount++;
+        if (jumpCount == maxJumps && Jump_Effect != null)
+        {
+            Jump_Effect.SetActive(true);
+        }
+    }
+
+    void ResetJumpCount()
+    {
+        jumpCount = 0;
+        if (Jump_Effect != null)
+            Jump_Effect.SetActive(false);
+    }
+
     void OnKeyDown()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -64,69 +88,34 @@ public class EggMovement : MonoBehaviour
         }
     }
 
-    void Jump()
+    private void OnCollisionEnter(Collision collision)
     {
-        if (jumpCount < maxJumps && Input.GetKeyDown(KeyCode.Space))
+        // Сброс прыжков только при столкновении с землей
+        if (collision.gameObject.tag == "Ground")
         {
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
-            jumpCount++;
-            if (jumpCount == maxJumps)
-            {
-                Jump_Effect.SetActive(true);
-            }
+            ResetJumpCount();
         }
-    }
-    void OnCollisionEnter(Collision collision)
-    {
-        string tag = collision.gameObject.tag;
-        switch (tag)
+
+        // Телепорт только если есть TELEPORT_SCRIPTS и нужный тег
+        if (teleportScripts != null)
         {
-            case "Ground":
-                jumpCount = 0;
-                Jump_Effect.SetActive(false);
-                break;
-            case "nest":
-                transform.position = _nest.position;
-                rb.linearVelocity = Vector3.zero;
-                break;
-            case "Finish Tag":
-                transform.position = _Finish_Tag.position;
-                rb.linearVelocity = Vector3.zero;
-                break;
-            case "Lava":
-                transform.position = _Lava_TP.position;
-                rb.linearVelocity = Vector3.zero;
-                break;
-            case "Finish":
-                finished = true;
-                transform.position = _Finish.position;
-                rb.linearVelocity = Vector3.zero;
-
-
-
-                
-                if (_camera != null)
-                {
-                    var cinemachineBrain = _camera.GetComponent<CinemachineBrain>();
-                    if (cinemachineBrain != null)
-                    {
-                        cinemachineBrain.enabled = false;
-                    }
-                    _camera.transform.position = _finishCameraTransform.position;
-                    _camera.transform.rotation = _finishCameraTransform.rotation;
-                }
-                break;
+            teleportScripts.TryTeleport(collision);
         }
     }
 
     void Update()
     {
         Move();
-        Jump();
+        if (Input.GetKeyDown(KeyCode.Space))
+            Jump();
         OnKeyDown();
     }
+
     void LateUpdate()
     {
-        Jump_Effect.transform.rotation = Quaternion.LookRotation(Vector3.down, Vector3.forward);
+        if (Jump_Effect != null)
+        {
+            Jump_Effect.transform.rotation = Quaternion.LookRotation(Vector3.down, Vector3.forward);
+        }
     }
 }
