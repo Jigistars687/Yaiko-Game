@@ -438,6 +438,12 @@
 -analyzer:"D:/UnityEditors/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"D:/UnityEditors/6000.2.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/LeanTween/Editor/LeanTweenDocumentationEditor.cs"
+"Assets/UnityTechnologies/DefaultPlayables/Editor/TimelinePlayableWizard.cs"
+"Assets/UnityTechnologies/DefaultPlayables/LightControl/Editor/LightControlDrawer.cs"
+"Assets/UnityTechnologies/DefaultPlayables/ScreenFader/Editor/ScreenFaderDrawer.cs"
+"Assets/UnityTechnologies/DefaultPlayables/TextSwitcher/Editor/TextSwitcherDrawer.cs"
+"Assets/UnityTechnologies/DefaultPlayables/TimeDilation/Editor/TimeDilationDrawer.cs"
+"Assets/UnityTechnologies/DefaultPlayables/TransformTween/Editor/TransformTweenDrawer.cs"
 -langversion:9.0
 /deterministic
 /optimize+

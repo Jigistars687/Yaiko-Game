@@ -12,6 +12,7 @@ public class EggMovement : MonoBehaviour
     [Header("Движение")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 2f;
+    [SerializeField] private GameObject Jump_Effect;
 
     [Header("Точки телепортации")]
     [SerializeField] private Transform _nest;
@@ -51,7 +52,7 @@ public class EggMovement : MonoBehaviour
 
     void OnKeyDown()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
             Time.timeScale = 0f;
             if (_Setting_Canvas != null)
@@ -67,8 +68,12 @@ public class EggMovement : MonoBehaviour
     {
         if (jumpCount < maxJumps && Input.GetKeyDown(KeyCode.Space))
         {
-            rb.linearVelocity += Vector3.up * jumpForce;
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, jumpForce, rb.linearVelocity.z);
             jumpCount++;
+            if (jumpCount == maxJumps)
+            {
+                Jump_Effect.SetActive(true);
+            }
         }
     }
 
@@ -80,6 +85,7 @@ public class EggMovement : MonoBehaviour
         {
             case "Ground":
                 jumpCount = 0;
+                Jump_Effect.SetActive(false);
                 break;
             case "nest":
                 transform.position = _nest.position;
