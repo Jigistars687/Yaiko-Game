@@ -6,7 +6,7 @@ using UnityEngine;
 public class MusicLooper : MonoBehaviour
 {
     [Header("Список треков (5 штук)")]
-    public List<AudioClip> tracks;  // Перетащите сюда 5 ваших AudioClip в инспекторе
+    public List<AudioClip> tracks;
 
     private AudioSource audioSource;
     private int currentTrackIndex = 0;
@@ -15,7 +15,7 @@ public class MusicLooper : MonoBehaviour
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.loop = false;  // Мы сами будем управлять повторением
+        audioSource.loop = false;
     }
 
     void Start()
@@ -25,7 +25,6 @@ public class MusicLooper : MonoBehaviour
             Debug.LogError("Не задан список треков!");
             return;
         }
-        // Запускаем бесконечное проигрывание
         loopCoroutine = StartCoroutine(PlayTracksLoop());
     }
 
@@ -35,11 +34,7 @@ public class MusicLooper : MonoBehaviour
         {
             audioSource.clip = tracks[currentTrackIndex];
             audioSource.Play();
-
-            // Ждём завершения трека
             yield return new WaitForSeconds(audioSource.clip.length);
-
-            // Переходим к следующему треку (с оборачиванием)
             currentTrackIndex = (currentTrackIndex + 1) % tracks.Count;
         }
     }
@@ -48,7 +43,6 @@ public class MusicLooper : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Finish"))
         {
-            // Останавливаем корутину и аудио
             if (loopCoroutine != null)
             {
                 StopCoroutine(loopCoroutine);

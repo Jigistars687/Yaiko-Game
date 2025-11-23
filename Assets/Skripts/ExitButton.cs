@@ -6,7 +6,7 @@ public class ExitButton : MonoBehaviour
     [SerializeField] GameObject _records_canvas;
     public void ExitGame()
     {
-        Application.Quit(); // Закрываем игру
+        Application.Quit();
     }
 
     public void MainMenu()

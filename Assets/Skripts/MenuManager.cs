@@ -5,12 +5,12 @@ public class MenuManager : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("yiakoGAME"); // Загружаем игровую сцену
+        SceneManager.LoadScene("yiakoGAME");
     }
 
     public void ExitGame()
     {
-        Application.Quit(); // Закрываем игру
+        Application.Quit();
     }
 }
 

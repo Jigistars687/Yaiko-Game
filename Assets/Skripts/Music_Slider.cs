@@ -6,7 +6,7 @@ public class Music_Slider : MonoBehaviour
 {
     [SerializeField] private Slider _slider;
     [SerializeField] private TMP_Text _text;
-    [SerializeField] private AudioSource _music; // источник музыки
+    [SerializeField] private AudioSource _music;
     [SerializeField] private GameObject Setting_Canvas;
 
     private const string VolumeKey = "MusicVolume";
@@ -17,20 +17,20 @@ public class Music_Slider : MonoBehaviour
         _slider.value = savedVolume;
         _music.volume = savedVolume;
         _slider.onValueChanged.AddListener(OnSliderChanged);
-        OnSliderChanged(_slider.value); // обновить сразу при старте
+        OnSliderChanged(_slider.value);
     }
 
     private void OnSliderChanged(float value)
     {
-        _music.volume = value; // громкость 0Ц1
-        _text.text = Mathf.RoundToInt(value * 100f).ToString(); // вывод 0Ц100
+        _music.volume = value;
+        _text.text = Mathf.RoundToInt(value * 100f).ToString();
         PlayerPrefs.SetFloat(VolumeKey, value);
         PlayerPrefs.Save();
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
             Time.timeScale = 1f;
             if (Setting_Canvas != null)

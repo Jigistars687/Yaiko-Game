@@ -5,6 +5,6 @@ public class PlayButton : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("yiakoGAME"); // Загружаем игровую сцену
+        SceneManager.LoadScene("yiakoGAME");
     }
 }

@@ -20,12 +20,6 @@ public class CUBESANIM : MonoBehaviour
         Anim();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void Anim()
     {
         LeanTween.move(_cube1, _target_cube1.position, 2.2f).setLoopPingPong();

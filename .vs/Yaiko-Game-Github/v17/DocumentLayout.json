@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\projects_U\\Yaiko-Game-Github\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25C616DB-2087-79F3-9BA4-9B5C6D8B12EA}|Assembly-CSharp.csproj|d:\\projects_u\\yaiko-game-github\\assets\\skripts\\yaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25C616DB-2087-79F3-9BA4-9B5C6D8B12EA}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\yaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25C616DB-2087-79F3-9BA4-9B5C6D8B12EA}|Assembly-CSharp.csproj|d:\\projects_u\\yaiko-game-github\\assets\\skripts\\egg_destroyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C616DB-2087-79F3-9BA4-9B5C6D8B12EA}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\egg_destroyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25C616DB-2087-79F3-9BA4-9B5C6D8B12EA}|Assembly-CSharp.csproj|d:\\projects_u\\yaiko-game-github\\assets\\skripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25C616DB-2087-79F3-9BA4-9B5C6D8B12EA}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Yaiko.cs",
-              "DocumentMoniker": "D:\\projects_U\\Yaiko-Game-Github\\Assets\\Skripts\\Yaiko.cs",
-              "RelativeDocumentMoniker": "Assets\\Skripts\\Yaiko.cs",
-              "ToolTip": "D:\\projects_U\\Yaiko-Game-Github\\Assets\\Skripts\\Yaiko.cs",
-              "RelativeToolTip": "Assets\\Skripts\\Yaiko.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowEgAAAAmAAAAAAAAAA==",
+              "Title": "Egg_Destroyer.cs",
+              "DocumentMoniker": "D:\\projects_U\\Yaiko-Game-Github\\Assets\\Skripts\\Egg_Destroyer.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\Egg_Destroyer.cs",
+              "ToolTip": "D:\\projects_U\\Yaiko-Game-Github\\Assets\\Skripts\\Egg_Destroyer.cs",
+              "RelativeToolTip": "Assets\\Skripts\\Egg_Destroyer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T09:34:01.514Z",
+              "WhenOpened": "2025-11-23T12:01:47.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TImer.cs",
+              "DocumentMoniker": "D:\\projects_U\\Yaiko-Game-Github\\Assets\\Skripts\\TImer.cs",
+              "RelativeDocumentMoniker": "Assets\\Skripts\\TImer.cs",
+              "ToolTip": "D:\\projects_U\\Yaiko-Game-Github\\Assets\\Skripts\\TImer.cs",
+              "RelativeToolTip": "Assets\\Skripts\\TImer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T11:35:10.432Z",
               "EditorCaption": ""
             }
           ]

@@ -9,6 +9,7 @@ public class EggMovement : MonoBehaviour
     private int maxJumps = 2;
     private bool finished = false;
 
+
     [Header("Движение")]
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 2f;
@@ -44,7 +45,6 @@ public class EggMovement : MonoBehaviour
 
         float moveX = Input.GetAxis("Horizontal");
         float moveZ = Input.GetAxis("Vertical");
-        // Исправлено: W/S - вперед/назад, A/D - влево/вправо
         Vector3 moveDirection = (forward * moveZ + right * moveX) * moveSpeed;
 
         rb.linearVelocity = new Vector3(moveDirection.x, rb.linearVelocity.y, moveDirection.z);
@@ -76,10 +76,8 @@ public class EggMovement : MonoBehaviour
             }
         }
     }
-
     void OnCollisionEnter(Collision collision)
     {
-        // Оптимизированная обработка столкновений по тегу
         string tag = collision.gameObject.tag;
         switch (tag)
         {
@@ -106,7 +104,7 @@ public class EggMovement : MonoBehaviour
 
 
 
-                // Отключение CinemachineBrain
+                
                 if (_camera != null)
                 {
                     var cinemachineBrain = _camera.GetComponent<CinemachineBrain>();
@@ -126,5 +124,9 @@ public class EggMovement : MonoBehaviour
         Move();
         Jump();
         OnKeyDown();
+    }
+    void LateUpdate()
+    {
+        Jump_Effect.transform.rotation = Quaternion.LookRotation(Vector3.down, Vector3.forward);
     }
 }

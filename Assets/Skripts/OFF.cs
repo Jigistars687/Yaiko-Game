@@ -7,7 +7,7 @@ public class OFF : MonoBehaviour
    
     public void ExitGame()
     {
-        Application.Quit(); // Закрываем игру
+        Application.Quit();
     }
 }
 

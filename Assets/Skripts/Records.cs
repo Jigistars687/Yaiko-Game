@@ -61,7 +61,7 @@ public class Records : MonoBehaviour
             }
             catch
             {
-                // Можно добавить логирование ошибки
+              
             }
         }
         return new TimeRecords();
