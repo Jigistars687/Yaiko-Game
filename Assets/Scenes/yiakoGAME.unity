@@ -23,17 +23,17 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0.5
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.5801887, g: 0.69707733, b: 1, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SubtractiveShadowColor: {r: 1, g: 1, b: 1, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 7416536dbe0334cfd888dd1beb75a9fb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 512
+  m_DefaultReflectionResolution: 256
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -24049,7 +24049,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6312969165794846113, guid: f1fc5bb90ac285e4486771552d63bcb8, type: 3}
       propertyPath: m_TagString
-      value: Finish
+      value: Finish Tag
       objectReference: {fileID: 0}
     - target: {fileID: 6757531004235149912, guid: f1fc5bb90ac285e4486771552d63bcb8, type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
@@ -24061,7 +24061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8903058273634794869, guid: f1fc5bb90ac285e4486771552d63bcb8, type: 3}
       propertyPath: m_TagString
-      value: Finish Tag
+      value: Finish
       objectReference: {fileID: 0}
     - target: {fileID: 8903058273634951509, guid: f1fc5bb90ac285e4486771552d63bcb8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24104,7 +24104,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1267198441840142800, guid: f1fc5bb90ac285e4486771552d63bcb8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1fc5bb90ac285e4486771552d63bcb8, type: 3}
@@ -26069,6 +26070,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 301727001}
     m_Modifications:
+    - target: {fileID: 4913147818869032645, guid: ac8efb728f1fb9b4092c4df591c827ca, type: 3}
+      propertyPath: m_TagString
+      value: nest
+      objectReference: {fileID: 0}
     - target: {fileID: 5186735023776687486, guid: ac8efb728f1fb9b4092c4df591c827ca, type: 3}
       propertyPath: m_Name
       value: Flowers_01 (1)
@@ -26122,7 +26127,8 @@ PrefabInstance:
       value: 0.012193937
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5440194995934546347, guid: ac8efb728f1fb9b4092c4df591c827ca, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac8efb728f1fb9b4092c4df591c827ca, type: 3}
@@ -35074,7 +35080,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3474586469933685846, guid: 299e7a1cb6456cf4fa6079cf5978df9b, type: 3}
       propertyPath: m_TagString
-      value: Finish
+      value: Finish Tag
       objectReference: {fileID: 0}
     - target: {fileID: 3899520030806763256, guid: 299e7a1cb6456cf4fa6079cf5978df9b, type: 3}
       propertyPath: m_Name
@@ -35133,7 +35139,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 08ed5673f2e78d141af5197f99eb3972, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7237717045736339869, guid: 299e7a1cb6456cf4fa6079cf5978df9b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 299e7a1cb6456cf4fa6079cf5978df9b, type: 3}
