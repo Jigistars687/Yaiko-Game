@@ -4,15 +4,6 @@ public class ExitButton : MonoBehaviour
 {
     [SerializeField] GameObject _canvas;
     [SerializeField] GameObject _records_canvas;
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
-
-    public void MainMenu()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MenuScene");
-    }
     public void Records_open()
     {
         _canvas.SetActive(false);

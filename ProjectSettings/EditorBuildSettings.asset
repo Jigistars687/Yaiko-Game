@@ -12,6 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/yiakoGAME.unity
+    path: Assets/Scenes/FirstLVLs.unity
     guid: 8a765b43288116340b066c53de5e1876
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

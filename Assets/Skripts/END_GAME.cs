@@ -24,7 +24,7 @@ public class EndGame : MonoBehaviour
 
     void Start()
     {
-        exitButton.SetActive(false); // Скрываем кнопку при старте
+        exitButton.SetActive(false);
         //endButton.SetActive(false);
         recordsFilePath = Path.Combine(Application.persistentDataPath, "time_records.json");
     }
@@ -33,12 +33,12 @@ public class EndGame : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Finish") && !hasFinished)
         {
-            WinSound.PlayOneShot(WinSound.clip); // Проигрываем звук победы
+            WinSound.PlayOneShot(WinSound.clip);
             hasFinished = true;
             if (timer != null)
             {
                 float finalTime = timer.GetElapsedTime();
-                timer.enabled = false; // Останавливаем таймер
+                timer.enabled = false;
                 if (finalTimeText != null)
                 {
                     finalTimeText.text = $"Время: {finalTime:F2}";
@@ -59,8 +59,8 @@ public class EndGame : MonoBehaviour
 
     void ShowExitButton()
     {
-        exitButton.SetActive(true); // Показываем кнопку спустя 5 секунд
-        Cursor.lockState = CursorLockMode.None; // Блокирует курсор в центре экрана
+        exitButton.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 
@@ -68,26 +68,26 @@ public class EndGame : MonoBehaviour
     {
         TimeRecords timeRecords = LoadTimeRecords();
 
-        // Добавляем новый рекорд
+
         timeRecords.records.Add(newTime);
 
-        // Находим лучший рекорд (минимальное время)
+
         float bestTime = timeRecords.records.Min();
 
-        // Сортируем по времени (от меньшего к большему)
+
         timeRecords.records = timeRecords.records.OrderBy(t => t).ToList();
 
-        // Если больше MaxRecords, удаляем самые старые, кроме лучшего
+
         if (timeRecords.records.Count > MaxRecords)
         {
-            // Сохраняем лучший рекорд
+
             List<float> filtered = new List<float> { bestTime };
-            // Добавляем остальные, кроме лучшего, до лимита
+
             filtered.AddRange(timeRecords.records.Where(t => t != bestTime).Take(MaxRecords - 1));
             timeRecords.records = filtered.OrderBy(t => t).ToList();
         }
 
-        // Сохраняем в файл
+
         string json = JsonUtility.ToJson(timeRecords, true);
         File.WriteAllText(recordsFilePath, json);
     }
