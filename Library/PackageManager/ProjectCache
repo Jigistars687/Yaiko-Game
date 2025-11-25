@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/projects_U/Yaiko-Game-Github/Packages/manifest.json
+    m_FilePath: D:/JIGISTAR/YaikoGame-Github/Yaiko-Game/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638989118255570842
-    m_Hash: 1705952311
+      ticks: 638996761268809367
+    m_Hash: 2677175361
   m_LockFileStatus:
-    m_FilePath: D:/projects_U/Yaiko-Game-Github/Packages/packages-lock.json
+    m_FilePath: D:/JIGISTAR/YaikoGame-Github/Yaiko-Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638989118255605908
-    m_Hash: 2807421820
+      ticks: 638996763090495959
+    m_Hash: 2941648795
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/projects_U/Yaiko-Game-Github/Packages
-m_EditorVersion: 6000.2.10f1 (d3d30d158480)
+m_ProjectPath: D:/JIGISTAR/YaikoGame-Github/Yaiko-Game/Packages
+m_EditorVersion: 6000.0.58f1 (44b8bf3a3225)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.2d.sprite@331abd9a1e2f
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.2d.sprite@897b7eecf04e
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -82,7 +82,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -91,7 +90,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 331abd9a1e2ff424a1ef2626e16936071ab7ce3d
+  fingerprint: 897b7eecf04ec94126f19c6ce2cba3404cc15178
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -107,7 +106,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.1.5
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.cinemachine@5342685532bb
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.cinemachine@5342685532bb
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -226,7 +225,7 @@ m_ResolvedPackages:
     - 3.1.3
     - 3.1.4
     - 3.1.5
-    recommended: 3.1.5
+    recommended: 2.10.5
     deprecated: []
   dependencies:
   - name: com.unity.splines
@@ -235,13 +234,13 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.splines
-    version: 2.8.2
+    version: 2.8.1
+  - name: com.unity.settings-manager
+    version: 2.1.0
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.1.0
   keywords:
   - camera
   - follow
@@ -291,10 +290,9 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.10.4
     nextVersion: 
-    recommendedVersion: 3.1.0
+    recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -340,7 +338,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.0
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.collab-proxy@1e5e48aff19d
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -442,10 +440,11 @@ m_ResolvedPackages:
     - 2.10.1
     - 2.10.2
     compatible:
+    - 2.9.3
     - 2.10.0
     - 2.10.1
     - 2.10.2
-    recommended: 2.10.2
+    recommended: 2.9.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -489,12 +488,11 @@ m_ResolvedPackages:
     revision: 1704702c409b3f64731bd9a086aff217f6242a58
     path: 
   unityLifecycle:
-    version: 2.10.0
+    version: 2.9.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -520,7 +518,7 @@ m_ResolvedPackages:
   fingerprint: 1e5e48aff19daaf7562fad196714be852e56fff3
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.10.0
+    minimumPackageVersion: 2.9.3
     minimumUnityVersion: 2021.3.0f1
   compliance:
     status: 0
@@ -533,7 +531,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -572,7 +570,7 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.25
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -619,7 +617,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -644,7 +641,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -678,8 +675,6 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
     version: 1.0.0
   keywords:
   - Multiplayer
@@ -715,7 +710,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -740,7 +734,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -849,18 +843,18 @@ m_ResolvedPackages:
     recommended: 1.8.9
     deprecated: []
   dependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.audio
-    version: 1.0.0
   - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -885,7 +879,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638900049118440000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
@@ -901,7 +895,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -938,7 +931,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.ugui@7056cb05de4c
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.ugui@aa507f3228f0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1009,7 +1002,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1018,7 +1010,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 7056cb05de4c8d42fc864130edd83b3a093a8505
+  fingerprint: aa507f3228f0351d0fbba1e8c7142b41bc567fe8
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -1034,7 +1026,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.8
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.visualscripting@b4d700247d4b
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.visualscripting@b4d700247d4b
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1086,6 +1078,7 @@ m_ResolvedPackages:
     - 1.9.8
     - 1.9.9
     compatible:
+    - 1.9.7
     - 1.9.8
     - 1.9.9
     recommended: 1.9.9
@@ -1130,12 +1123,11 @@ m_ResolvedPackages:
     revision: 2bb93a09becf00b2343d1c670afbf3836f170f55
     path: 
   unityLifecycle:
-    version: 1.9.8
+    version: 1.9.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1149,7 +1141,7 @@ m_ResolvedPackages:
   fingerprint: b4d700247d4b84b3360e1afeb054b0bdb201fbc7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.8
+    minimumPackageVersion: 1.9.7
     minimumUnityVersion: 2021.3.0a1
   compliance:
     status: 0
@@ -1162,7 +1154,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1214,7 +1206,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1239,7 +1230,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1291,7 +1282,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1316,7 +1306,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1367,7 +1357,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1392,7 +1381,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1444,7 +1433,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1469,7 +1457,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1521,7 +1509,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1546,7 +1533,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1598,7 +1585,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1623,7 +1609,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1679,7 +1665,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1704,7 +1689,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1764,7 +1749,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1789,7 +1773,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1841,7 +1825,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1866,7 +1849,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1918,7 +1901,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -1943,7 +1925,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1995,7 +1977,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2020,7 +2001,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2072,7 +2053,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2097,7 +2077,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2149,7 +2129,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2174,7 +2153,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2226,7 +2205,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2251,7 +2229,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2307,7 +2285,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2332,7 +2309,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2384,7 +2361,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2409,7 +2385,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2469,7 +2445,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2494,7 +2469,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2549,7 +2524,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2574,7 +2548,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2626,7 +2600,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2651,7 +2624,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2680,8 +2653,6 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.hierarchycore
     version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -2690,8 +2661,6 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  - name: com.unity.modules.physics
     version: 1.0.0
   keywords: []
   registry:
@@ -2723,7 +2692,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2748,7 +2716,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2800,7 +2768,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2825,7 +2792,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2884,7 +2851,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2909,7 +2875,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2961,7 +2927,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -2986,7 +2951,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3046,7 +3011,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3071,7 +3035,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3131,7 +3095,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3156,7 +3119,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3216,7 +3179,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3241,7 +3203,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3317,7 +3279,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3342,7 +3303,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3398,7 +3359,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3423,7 +3383,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3487,7 +3447,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3512,7 +3471,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3578,7 +3537,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3603,7 +3561,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3655,7 +3613,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3680,7 +3637,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3744,7 +3701,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3769,7 +3725,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3825,7 +3781,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3850,7 +3805,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityEditors\6000.2.10f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -3902,7 +3857,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -3927,7 +3881,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.25
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3970,6 +3924,7 @@ m_ResolvedPackages:
     - 2.0.23
     - 2.0.25
     compatible:
+    - 2.0.23
     - 2.0.25
     recommended: 2.0.25
     deprecated: []
@@ -3978,7 +3933,7 @@ m_ResolvedPackages:
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -4010,12 +3965,11 @@ m_ResolvedPackages:
     revision: 3765e21a94ea1100e4b377121dbf771c3cbd874a
     path: 
   unityLifecycle:
-    version: 2.0.25
+    version: 2.0.23
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4028,7 +3982,7 @@ m_ResolvedPackages:
   fingerprint: 74aa435fc4bb41890f400130ec80f271d1292fd4
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.25
+    minimumPackageVersion: 2.0.23
     minimumUnityVersion: 2021.3.0a1
   compliance:
     status: 0
@@ -4041,7 +3995,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.38
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -4106,6 +4060,7 @@ m_ResolvedPackages:
     - 3.0.37
     - 3.0.38
     compatible:
+    - 3.0.37
     - 3.0.38
     recommended: 3.0.38
     deprecated:
@@ -4141,12 +4096,11 @@ m_ResolvedPackages:
     revision: 8a49d81ce92f334a07e3b71a8847b2f60dc12287
     path: 
   unityLifecycle:
-    version: 3.0.38
+    version: 3.0.37
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4159,7 +4113,7 @@ m_ResolvedPackages:
   fingerprint: 1f60b3138684c97af67aa8d911b1632ba916d29d
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 3.0.38
+    minimumPackageVersion: 3.0.37
     minimumUnityVersion: 2021.3.0a1
   compliance:
     status: 0
@@ -4172,7 +4126,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -4181,7 +4135,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
@@ -4220,7 +4174,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -4236,7 +4190,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4261,7 +4214,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4316,7 +4269,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638699545898200000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
@@ -4332,7 +4285,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4353,12 +4305,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.test-framework@1.6.0
+- packageId: com.unity.test-framework@1.5.1
   testable: 0
   isDirectDependency: 0
-  version: 1.6.0
+  version: 1.5.1
   source: 2
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.test-framework@d97b7cd61ded
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.test-framework@1f954279c37e
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -4372,10 +4324,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.6.0
+    - 1.5.1
     compatible:
-    - 1.6.0
-    recommended: 1.6.0
+    - 1.5.1
+    recommended: 1.5.1
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -4418,12 +4370,11 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.6.0
+    version: 1.5.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4432,10 +4383,10 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: d97b7cd61dedd05f0fbaa425a40bd39d098f5cfc
+  fingerprint: 1f954279c37e8ebe39ba5255476ba9f21e2a19ec
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.6.0
+    minimumPackageVersion: 1.5.1
     minimumUnityVersion: 6000.0.44f1
   compliance:
     status: 0
@@ -4448,7 +4399,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4457,7 +4408,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use this package to export code coverage data and reports from your
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
@@ -4510,7 +4461,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.5.1
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -4537,7 +4488,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638575857900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
@@ -4553,7 +4504,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4578,12 +4528,12 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.splines@2.8.2
+- packageId: com.unity.splines@2.8.1
   testable: 0
   isDirectDependency: 0
-  version: 2.8.2
+  version: 2.8.1
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.splines@1cb7d86fc7ff
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.splines@b909627b5095
   assetPath: Packages/com.unity.splines
   name: com.unity.splines
   displayName: Splines
@@ -4623,23 +4573,24 @@ m_ResolvedPackages:
     - 2.8.1
     - 2.8.2
     compatible:
+    - 2.8.1
     - 2.8.2
     recommended: 2.8.2
     deprecated: []
   dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 1.0.3
   resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.1.0
   - name: com.unity.mathematics
     version: 1.3.2
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 2.1.0
   keywords:
   - spline
   - curve
@@ -4657,41 +4608,40 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638935739205640000
+  datePublishedTicks: 638822348021470000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
-    revision: 43fe6df748a4819ca8492b7d90662923a31d488f
+    revision: ae2c33950924058f2912683d16e02268813ce44a
     path: 
   unityLifecycle:
-    version: 2.8.2
+    version: 2.8.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- [DOCATT-4646], [DOCATT-5603], [DOCATT-7045],
-    [DOCATT-5044], [DOCATT-6376], [DOCATT-6626] Clarified API documentation following
-    user feedback.\n- [SPLB-360] Fixed a bug when selecting the clear component option,
-    resulting in out of range exception\n- [SPLB-361] Fixed a bug where the spline
-    would not animate with Scene/Domain reload disabled upon entering playmode\n-
-    [SPLB-356] Fixed a bug where a null reference exception would occur after baking
-    a SplineInstantiate component and then pressing Undo."}'
+  upmReserved: '{"changelog":"### Bug Fixes\n- [SPLB-345] Fixed a bug which was causing
+    null reference exceptions during shutdown in IL2CPP builds.\n- [SPLB-337] Fixed
+    a bug where `JoinSplinesOnKnots` would throw a null reference exception when
+    one of the splines was linked with another spline.\n- [SPLB-341] Fixed a bug
+    where changing the tangent mode on a knot on a prefab would not persist when
+    entering play mode.\n\n### Changed\n- Internal code cleanup to align with release
+    standards."}'
   assetStore:
     productId: 
-  fingerprint: 1cb7d86fc7ffee63824ca302b2b8982178eeea83
+  fingerprint: b909627b5095061d48761597bbb8384d6f04e510
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.8.2
+    minimumPackageVersion: 2.8.1
     minimumUnityVersion: 2022.3.0a1
   compliance:
     status: 0
@@ -4704,7 +4654,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.0
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.settings-manager@41738c275190
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.settings-manager@41738c275190
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4750,7 +4700,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638792046006940000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.settings-manager@2.1/manual/index.html
@@ -4766,7 +4716,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4793,7 +4742,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4848,7 +4797,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 0
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4873,7 +4821,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: D:\projects_U\Yaiko-Game-Github\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  resolvedPath: D:\JIGISTAR\YaikoGame-Github\Yaiko-Game\Library\PackageCache\com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4882,7 +4830,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   errors: []
@@ -4930,7 +4878,7 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 638409134840000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
@@ -4946,7 +4894,6 @@ m_ResolvedPackages:
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4969,4 +4916,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 3bf098587572984243814ef8b54d2562d28c958a
+m_BuiltInPackagesHash: b3d02e3deddd8a927eeb837601a0b99a26c33282

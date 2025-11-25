@@ -115,7 +115,7 @@ public class EggMovement : MonoBehaviour
     {
         if (Jump_Effect != null)
         {
-            Jump_Effect.transform.rotation = Quaternion.LookRotation(Vector3.down, Vector3.forward);
+            Jump_Effect.transform.rotation = Quaternion.LookRotation(Vector3.down, Vector3.up);
         }
     }
 }
