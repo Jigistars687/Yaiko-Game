@@ -5,17 +5,18 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
-  - Finish Tag
-  - Lava
   - nest
+  - Lava
+  - Finish Tag
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - DS
+  - LOL
   - Water
   - UI
-  - Player
+  - Lava
   - 
   - 
   - 
@@ -47,3 +48,10 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7

@@ -1,32 +1,32 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.58f1 (44b8bf3a3225) revision 4503743'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.17763) 64bit Professional' Language: 'ru' Physical Memory: 16328 MB
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalEducation' Language: 'ru' Physical Memory: 32535 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-25T14:31:54Z
+Date: 2025-11-29T16:22:10Z
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.0.58f1\Editor\Unity.exe
+D:\UnityEditors\6000.0.58f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker5
 -projectPath
-D:/JIGISTAR/YaikoGame-Github/Yaiko-Game
+D:/projects_U/YaikoGame_Revive
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-50791
+54693
 -job-worker-count
-1
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: D:/JIGISTAR/YaikoGame-Github/Yaiko-Game
-D:/JIGISTAR/YaikoGame-Github/Yaiko-Game
+Successfully changed project path to: D:/projects_U/YaikoGame_Revive
+D:/projects_U/YaikoGame_Revive
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,17 +62,15 @@ D:/JIGISTAR/YaikoGame-Github/Yaiko-Game
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [236]  Target information:
+Player connection [7008]  Target information:
 
-Player connection [236]  * "[IP] 192.168.5.184 [Port] 0 [Flags] 2 [Guid] 3785088415 [EditorId] 3785088415 [Version] 1048832 [Id] WindowsEditor(7,A205PC11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7008]  * "[IP] 192.168.100.163 [Port] 0 [Flags] 2 [Guid] 218235336 [EditorId] 218235336 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AR157Q0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [236]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3785088415 [EditorId] 3785088415 [Version] 1048832 [Id] WindowsEditor(7,A205PC11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7008]  * "[IP] 26.204.231.216 [Port] 0 [Flags] 2 [Guid] 218235336 [EditorId] 218235336 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AR157Q0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [236]  * "[IP] 192.168.43.33 [Port] 0 [Flags] 2 [Guid] 3785088415 [EditorId] 3785088415 [Version] 1048832 [Id] WindowsEditor(7,A205PC11) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [236] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [236] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 1
+Player connection [7008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -83,61 +81,64 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f1 (44b8bf3a3225)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/JIGISTAR/YaikoGame-Github/Yaiko-Game/Assets
+[Subsystems] Discovering subsystems at path D:/UnityEditors/6000.0.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/projects_U/YaikoGame_Revive/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     4017 MB
-    Driver:   31.0.15.2647
+    VRAM:     12115 MB
+    Driver:   32.0.15.8180
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Mono path[0] = 'D:/UnityEditors/6000.0.58f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityEditors/6000.0.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityEditors/6000.0.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006654 seconds.
-- Loaded All Assemblies, in  0.510 seconds
+Register platform support module: D:/UnityEditors/6000.0.58f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/UnityEditors/6000.0.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/UnityEditors/6000.0.58f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.007158 seconds.
+- Loaded All Assemblies, in  0.692 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1201 ms
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.459 seconds
-Domain Reload Profiling: 965ms
-	BeginReloadAssembly (161ms)
+- Finished resetting the current domain, in  1.813 seconds
+Domain Reload Profiling: 2505ms
+	BeginReloadAssembly (240ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (64ms)
-	LoadAllAssembliesAndSetupDomain (214ms)
-		LoadAssemblies (159ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (240ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (189ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (242ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (460ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1814ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (405ms)
+		SetupLoadedEditorAssemblies (1737ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (221ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			InitializePlatformSupportModulesInManaged (1337ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -149,11 +150,16 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.892 seconds
+- Loaded All Assemblies, in  1.204 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.LightmapSamplingSettings, Unity.RenderPipelines.Core.Runtime (1 object)
+	UnityEngine.Rendering.RenderingDebuggerRuntimeResources, Unity.RenderPipelines.Core.Runtime (1 object)
+	UnityEngine.Rendering.VrsRenderPipelineRuntimeResources, Unity.RenderPipelines.Core.Runtime (1 object)
+Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -165,629 +171,104 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.749 seconds
-Domain Reload Profiling: 1638ms
-	BeginReloadAssembly (251ms)
+- Finished resetting the current domain, in  1.415 seconds
+Domain Reload Profiling: 2616ms
+	BeginReloadAssembly (309ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (60ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (56ms)
 	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (507ms)
-		LoadAssemblies (365ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (752ms)
+		LoadAssemblies (558ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (269ms)
-			TypeCache.Refresh (208ms)
-				TypeCache.ScanAssembly (192ms)
-			BuildScriptInfoCaches (48ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (749ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (258ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1416ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (593ms)
+		SetupLoadedEditorAssemblies (1011ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (139ms)
-			ProcessInitializeOnLoadAttributes (403ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (211ms)
+			ProcessInitializeOnLoadAttributes (678ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4135 unused Assets / (0.7 MB). Loaded Objects now: 4645.
-Memory consumption went from 157.8 MB to 157.1 MB.
-Total: 7.558800 ms (FindLiveObjects: 0.604500 ms CreateObjectMapping: 0.698500 ms MarkObjects: 4.966100 ms  DeleteObjects: 1.288000 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6605 unused Assets / (2.1 MB). Loaded Objects now: 7326.
+Memory consumption went from 139.9 MB to 137.7 MB.
+Total: 10.221000 ms (FindLiveObjects: 0.929600 ms CreateObjectMapping: 0.956100 ms MarkObjects: 6.048400 ms  DeleteObjects: 2.284800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2609.367926 seconds.
-  path: Assets/Nature/Models/Tree_05.fbx
-  artifactKey: Guid(603970f97e50c56488ec3c5a6febd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Tree_05.fbx using Guid(603970f97e50c56488ec3c5a6febd940) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd33492b99fe43e367c1a320bce7e6c02') in 0.5248135 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 343784.035871 seconds.
+  path: Assets/LowPoly-Animals/Water/Fish_4/Materials/fish_4_v4.mat
+  artifactKey: Guid(119a790f1d413a949affca22405b5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly-Animals/Water/Fish_4/Materials/fish_4_v4.mat using Guid(119a790f1d413a949affca22405b5add) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f6b5052ddd7a4e22f4d4d8a4aba998f') in 0.8457632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.431457 seconds.
-  path: Assets/Nature/Models/Tree_01.fbx
-  artifactKey: Guid(6c7eaede4efc960409fb9ef2dfb77f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Tree_01.fbx using Guid(6c7eaede4efc960409fb9ef2dfb77f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e4dc6f63e97e9f9285711f18f14983a') in 0.1163848 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 0.000063 seconds.
+  path: Assets/Desert Pack/Materials/ColorPaletteRED.mat
+  artifactKey: Guid(a68b38832a101144bb4fd9a1aa0f1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Pack/Materials/ColorPaletteRED.mat using Guid(a68b38832a101144bb4fd9a1aa0f1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14774942bbd44244128beeecd5b9ab5d') in 0.0316685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.126364 seconds.
-  path: Assets/Office_Props/Models/(Msh)Sofa2.fbx
-  artifactKey: Guid(b2ea3a81a047dab439905bfb53997287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Sofa2.fbx using Guid(b2ea3a81a047dab439905bfb53997287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42c9736fa532be8eac655f404965bfdb') in 0.1160969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad2d0e23e360d39627d3555d33b4ef2b') in 0.0359151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Office_Props/Models/(Msh)Sofa3.fbx
-  artifactKey: Guid(a2926ab1cfa2245478d20ad4f0331477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Sofa3.fbx using Guid(a2926ab1cfa2245478d20ad4f0331477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0bfef24c56e0e3be7f3a706a861626f') in 0.078652 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 505.047013 seconds.
-  path: Assets/Office_Props/Models/(Msh)Separator.fbx
-  artifactKey: Guid(b4770c72ef9ca574a8fc2f08b8e7cb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Separator.fbx using Guid(b4770c72ef9ca574a8fc2f08b8e7cb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c2bd3a8bd0197fadd42bb8db5bc6cb9') in 0.1154774 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Nature/Models/Rock_03.fbx
-  artifactKey: Guid(14125b656fb71fd4d9d65bfe344107ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Rock_03.fbx using Guid(14125b656fb71fd4d9d65bfe344107ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5c293b554c469685a58c5678453f3b9') in 0.0340435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Nature/Models/Rock_05.fbx
-  artifactKey: Guid(fa2e670bb3648a84b9df8d16da25b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Rock_05.fbx using Guid(fa2e670bb3648a84b9df8d16da25b85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff7493f919c73d879c27867023ef603f') in 0.0341063 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Desert Pack/Models/DesertCactus01.fbx
-  artifactKey: Guid(031fb6e21f9df124ab8d5cfc69019ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertCactus01.fbx using Guid(031fb6e21f9df124ab8d5cfc69019ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4635d4ea066acd3db71fdb277b13dec6') in 0.151915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/LowPoly-Animals/Water/Fish_1/Fish_1_Animated.fbx
-  artifactKey: Guid(a9926c2766fb5394a860934fe4e34c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly-Animals/Water/Fish_1/Fish_1_Animated.fbx using Guid(a9926c2766fb5394a860934fe4e34c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baff706b60c72078683945056cc76bd5') in 0.838006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007479 seconds.
-  path: Assets/Nature/Models/Ground_02.fbx
-  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd472602a279223999fa8b7c4680613aa') in 0.0445599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Office_Props/Models/(Msh)PCCase.fbx
-  artifactKey: Guid(63434af8d15cb5840a1965b4ee99f420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)PCCase.fbx using Guid(63434af8d15cb5840a1965b4ee99f420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f10544c512f82840ab9a253c59fc5591') in 0.0297097 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/LeanTween/Examples/Models/SimpleAvatar.fbx
-  artifactKey: Guid(c8c942998fe7e4845bed23e105bd031f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween/Examples/Models/SimpleAvatar.fbx using Guid(c8c942998fe7e4845bed23e105bd031f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57599e3b333f7de95fccade737a3f9bd') in 0.0342602 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019618 seconds.
-  path: Assets/Nature/Models/Ground_03.fbx
-  artifactKey: Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Ground_03.fbx using Guid(661464e19c087564badb2bf5230c842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5de96daf4ad3ecaa7a80672c065d9ce3') in 0.036533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011626 seconds.
-  path: Assets/Office_Props/Models/(Msh)Drawer3.fbx
-  artifactKey: Guid(2a975253b89f03147813702ebc3dfa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Drawer3.fbx using Guid(2a975253b89f03147813702ebc3dfa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4eb4c9101e587301e34e5728b2242d63') in 0.0468987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002689 seconds.
-  path: Assets/Office_Props/Models/(Msh)Drawer2.fbx
-  artifactKey: Guid(cf1dfec5e0b6df84697e78615469e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Drawer2.fbx using Guid(cf1dfec5e0b6df84697e78615469e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bbf3b26bdc1451f74db08ae624a8dac') in 0.0481908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002455 seconds.
-  path: Assets/LowPoly-Animals/Water/Fish_3/Fish_3_Animated.fbx
-  artifactKey: Guid(67a05fb2cf20c3d41b72f3cc720def5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly-Animals/Water/Fish_3/Fish_3_Animated.fbx using Guid(67a05fb2cf20c3d41b72f3cc720def5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f66708498b1ab4655f6aef6e23b8dca4') in 0.1086621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Office_Props/Models/(Msh)DocumentHolder.fbx
-  artifactKey: Guid(f79a2c7c74ed86945916baca4abd128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)DocumentHolder.fbx using Guid(f79a2c7c74ed86945916baca4abd128c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac62d7d4647100e539255f2216ca70a0') in 0.0270675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054134 seconds.
-  path: Assets/LowPoly-Animals/Water/Dolphin/Dolfin_Animated.fbx
-  artifactKey: Guid(022485f29bd7da742a91f941d60320e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPoly-Animals/Water/Dolphin/Dolfin_Animated.fbx using Guid(022485f29bd7da742a91f941d60320e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f47f552b9c2876d9bb8b905efffd7a5d') in 0.0579341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.017390 seconds.
-  path: Assets/Office_Props/Models/(Msh)DeskPlant.fbx
-  artifactKey: Guid(3978e0eca0f17684d8cd75e9959471bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)DeskPlant.fbx using Guid(3978e0eca0f17684d8cd75e9959471bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f2b1ad36c7895f2afd6ee0775a4e4bc') in 0.0281636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Office_Props/Models/(Msh)Drawer1.fbx
-  artifactKey: Guid(c2433cdade6af034d875648a6e47c001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Drawer1.fbx using Guid(c2433cdade6af034d875648a6e47c001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23ec32cb4dac914c12c066668658f873') in 0.0356096 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/LeanTween/Examples/Models/EndlessDrivingText.fbx
-  artifactKey: Guid(6311d891eea1c406c941c23f9dfa5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween/Examples/Models/EndlessDrivingText.fbx using Guid(6311d891eea1c406c941c23f9dfa5265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '664b1f529a82de741688823eeb839b99') in 0.0213778 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Office_Props/Models/(Msh)Fatboy.fbx
-  artifactKey: Guid(28502d19c68219d44abc46f748d642ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Fatboy.fbx using Guid(28502d19c68219d44abc46f748d642ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d202c9e47dfc3ded11b53ab99843eb4') in 0.1062131 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001809 seconds.
-  path: Assets/Office_Props/Models/(Msh)Microwave.fbx
-  artifactKey: Guid(f9bb1fe475c1d144cb7676c5b119fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Microwave.fbx using Guid(f9bb1fe475c1d144cb7676c5b119fbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1557fa0ff872fe0374ad6a985346ce0b') in 0.0567756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Office_Props/Models/(Msh)Mug.fbx
-  artifactKey: Guid(d283a93eb62894849b3a3aea9ca0c8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Mug.fbx using Guid(d283a93eb62894849b3a3aea9ca0c8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b474fa71d58b144a80c6806f7bd78025') in 0.0376205 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004400 seconds.
-  path: Assets/Office_Props/Models/(Msh)LoungeChair.fbx
-  artifactKey: Guid(d0f06f9715b791a4596af29b5bbb56d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)LoungeChair.fbx using Guid(d0f06f9715b791a4596af29b5bbb56d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f57b2c7d97a91c76180739c762c9a740') in 0.0286413 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000775 seconds.
-  path: Assets/Office_Props/Models/(Msh)DeskLight.fbx
-  artifactKey: Guid(6742d9d0591e16e48b701a5fd806e2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)DeskLight.fbx using Guid(6742d9d0591e16e48b701a5fd806e2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66f0fdb31c64a1ea59d33bbe56b02052') in 0.0930222 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004683 seconds.
-  path: Assets/Nature/Models/Grass_02.fbx
-  artifactKey: Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Grass_02.fbx using Guid(638dc165572d2a84081d13ce1afb4d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1c01d3986b5061a36eabca7393ecf9f') in 0.034223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023693 seconds.
-  path: Assets/Nature/Models/Rock_01.fbx
-  artifactKey: Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Rock_01.fbx using Guid(e9089b1db16b58f4282a94e020b9c0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f85d905954b0b0a9699af5e000c06b5') in 0.0254966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015833 seconds.
-  path: Assets/Nest/Meshes/Nest_11.fbx
-  artifactKey: Guid(4316d3f6cd0317f40b835a74d998f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nest/Meshes/Nest_11.fbx using Guid(4316d3f6cd0317f40b835a74d998f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dcc1bcda1a4c11b15ae0601138949a6') in 0.0945278 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 67
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Office_Props/Models/(Msh)KitchenModule.fbx
-  artifactKey: Guid(4339f93ff4f1c4f4ca6000d384de14bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)KitchenModule.fbx using Guid(4339f93ff4f1c4f4ca6000d384de14bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '080b546924e3a0d73dbea495fc505da7') in 0.0742486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Nature/Models/Ground_01.fbx
-  artifactKey: Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Ground_01.fbx using Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5415fab4cc12214d8353048e61884731') in 0.0554582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003570 seconds.
-  path: Assets/Nature/Models/Flowers_01.fbx
-  artifactKey: Guid(b5a80b3e2a089b841b155d7c7f461e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Flowers_01.fbx using Guid(b5a80b3e2a089b841b155d7c7f461e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb17dab0b9eacda49beddbc64f7e79d6') in 0.0354139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Nature/Models/Grass_01.fbx
-  artifactKey: Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Grass_01.fbx using Guid(ad3119cbd6dce024e8460ef32dec49df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6d19c28172dde5e206b62427b632e79') in 0.0913832 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Desert Pack/Models/DesertLadderExtra.fbx
-  artifactKey: Guid(94cffdb0110c145438f4d7044fdfbcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertLadderExtra.fbx using Guid(94cffdb0110c145438f4d7044fdfbcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d7d301f20f352d0c8881b8c3f4ba809') in 0.0268908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Desert Pack/Models/DesertRock04.fbx
-  artifactKey: Guid(03e2c7d78ad2b584d9a979ef1ee533b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertRock04.fbx using Guid(03e2c7d78ad2b584d9a979ef1ee533b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '493d2337fa48d3bde40cfea99f6275e9') in 0.0626216 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Desert Pack/Models/DesertTower.fbx
-  artifactKey: Guid(7b48ad62c761cd34aa50ee4f14a54da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertTower.fbx using Guid(7b48ad62c761cd34aa50ee4f14a54da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a0662e623b59412826e4b606c48d21f') in 0.0797898 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037902 seconds.
-  path: Assets/Desert Pack/Models/DesertRock07.fbx
-  artifactKey: Guid(c7f3fb4e927a4c0488294f272988d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertRock07.fbx using Guid(c7f3fb4e927a4c0488294f272988d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e83442949bf91ccf3567c6652c06ec34') in 0.0397909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Desert Pack/Models/Desertjar3.fbx
-  artifactKey: Guid(daa2d0efab8b8354ba3bf880e1fa81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/Desertjar3.fbx using Guid(daa2d0efab8b8354ba3bf880e1fa81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ae414a14292a8cc8a3e697daf68a4ff') in 0.0244511 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006696 seconds.
-  path: Assets/Desert Pack/Models/DesertDoorRight.fbx
-  artifactKey: Guid(2ecf61b24ed19d54a917c84ef9d9872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertDoorRight.fbx using Guid(2ecf61b24ed19d54a917c84ef9d9872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f2de9b216da2b3bf90684d6740f83b2') in 0.0910147 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Desert Pack/Models/DesertCube01.fbx
-  artifactKey: Guid(e87b7f3bcc48cc2478719e98aec0e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertCube01.fbx using Guid(e87b7f3bcc48cc2478719e98aec0e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78667de37ac7df2d80de202be1b1fea5') in 0.033959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.052771 seconds.
-  path: Assets/Desert Pack/Models/DesertRock02.fbx
-  artifactKey: Guid(9f666b9d9c9ceca4e8da8117e06ec7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertRock02.fbx using Guid(9f666b9d9c9ceca4e8da8117e06ec7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75d0eebeaddb8a505f82cace08d8777b') in 0.0260613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003692 seconds.
-  path: Assets/Desert Pack/Models/DesertDoorLeft.fbx
-  artifactKey: Guid(bbca20c143b76c64e8cc14d761cff1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertDoorLeft.fbx using Guid(bbca20c143b76c64e8cc14d761cff1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed1fda50ff3dd243dda58dea31f4a323') in 0.0288267 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Desert Pack/Models/DesertRock01.fbx
-  artifactKey: Guid(5658ccea96fc4064da3911322b31fba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertRock01.fbx using Guid(5658ccea96fc4064da3911322b31fba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1efe5739b855221b534b9171e62b895c') in 0.0330379 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007581 seconds.
-  path: Assets/Desert Pack/Models/DesertWindow.fbx
-  artifactKey: Guid(e8e2606076be7ac49ad4782fca602ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertWindow.fbx using Guid(e8e2606076be7ac49ad4782fca602ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '269179256cb1d13ba4344f59de747407') in 0.0251477 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001380 seconds.
-  path: Assets/Desert Pack/Models/DesertCoin.fbx
-  artifactKey: Guid(088b815a15b316142935fe8990fee648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertCoin.fbx using Guid(088b815a15b316142935fe8990fee648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfb8703fd3c8234bf32d9b11c86d979b') in 0.0477486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038498 seconds.
-  path: Assets/Office_Props/Models/(Msh)Desk1.fbx
-  artifactKey: Guid(aa1df8bdfe3b61943a5cbb2344613612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Desk1.fbx using Guid(aa1df8bdfe3b61943a5cbb2344613612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f97915d9b886d365825c6490ee7963') in 0.0282444 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Desert Pack/Models/DesertFlag.fbx
-  artifactKey: Guid(ec75c215f09cbdc4facd7f5cd3e4a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertFlag.fbx using Guid(ec75c215f09cbdc4facd7f5cd3e4a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b5a7e70a89c569e21b90ef088485789') in 0.0457174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Desert Pack/Models/DesertPear.fbx
-  artifactKey: Guid(59b4286292368fe4783ca427f507a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertPear.fbx using Guid(59b4286292368fe4783ca427f507a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49c75e0f3728506ea396ff4c046c2dba') in 0.0934701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018690 seconds.
-  path: Assets/Desert Pack/Models/DesertGround02.fbx
-  artifactKey: Guid(9a904a45434ee2648b5c6cfcfc7ba3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertGround02.fbx using Guid(9a904a45434ee2648b5c6cfcfc7ba3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '070cace058faf87e74bcd4f5741a8c0f') in 0.0289188 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021822 seconds.
-  path: Assets/Office_Props/Models/(Msh)OfficeChair.fbx
-  artifactKey: Guid(bf186ae0c211e3b46b8c3cf9bc7b1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)OfficeChair.fbx using Guid(bf186ae0c211e3b46b8c3cf9bc7b1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ff4c86241c65d30bdfa38c00804a685') in 0.1149547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.098432 seconds.
-  path: Assets/Desert Pack/Models/DesertBoxFillerBlue.fbx
-  artifactKey: Guid(50485a96d556be84e9ff165441c6da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertBoxFillerBlue.fbx using Guid(50485a96d556be84e9ff165441c6da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c339284257c2c9640ed9e0ebe82bdb64') in 0.0682403 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.108103 seconds.
-  path: Assets/Desert Pack/Models/DesertCastle.fbx
-  artifactKey: Guid(37f7476af8f447b42b3d4beef9b2c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertCastle.fbx using Guid(37f7476af8f447b42b3d4beef9b2c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f43c566414c9c3addcc64e81fe9cc615') in 0.040515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092475 seconds.
-  path: Assets/Models/РѕР±РѕРґРѕРє.fbx
-  artifactKey: Guid(65f13fd68952fb449a093aabf5e54403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/РѕР±РѕРґРѕРє.fbx using Guid(65f13fd68952fb449a093aabf5e54403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9901f44e5a3ee0425b0ecfe0b40bade2') in 0.0226328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014684 seconds.
-  path: Assets/Desert Pack/Models/DesertBoxlarge.fbx
-  artifactKey: Guid(2b4b51f609cfb024ba0f1ffc36943c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertBoxlarge.fbx using Guid(2b4b51f609cfb024ba0f1ffc36943c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec07f4438bbde3fb3d3e25fe13f93b1c') in 0.0318988 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/Desert Pack/Models/DesertBridgeExtra01.fbx
-  artifactKey: Guid(bdc69c8dbb9638147808b023bec5fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertBridgeExtra01.fbx using Guid(bdc69c8dbb9638147808b023bec5fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '571779d878b03f1d216cc25ed66fc8bb') in 0.0481211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002610 seconds.
-  path: Assets/Office_Props/Models/(Msh)ConferenceTable.fbx
-  artifactKey: Guid(1e6adf612247ece438ca7fa180d6e18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)ConferenceTable.fbx using Guid(1e6adf612247ece438ca7fa180d6e18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c024043e95c9e726ad2499d877e8e208') in 0.027706 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Desert Pack/Models/DesertChestTop.fbx
-  artifactKey: Guid(a3597c53140417c4386fb9e37fbd5e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertChestTop.fbx using Guid(a3597c53140417c4386fb9e37fbd5e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e065b476f12fc47136faf72f57eeded8') in 0.0280974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Desert Pack/Models/DesertBridgeExtra01W.fbx
-  artifactKey: Guid(9130f02e21e18bf47b7a857a08b3c888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertBridgeExtra01W.fbx using Guid(9130f02e21e18bf47b7a857a08b3c888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0e5f99df0b207b6e6b8efa2fde89293') in 0.1386896 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Desert Pack/Models/DesertBridgeEndW.fbx
-  artifactKey: Guid(d189f7a9202a7ec45ac87cf77628ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertBridgeEndW.fbx using Guid(d189f7a9202a7ec45ac87cf77628ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e280e81eaec1c5bf8d471ade34ffec1') in 0.0338586 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006488 seconds.
-  path: Assets/LeanTween/Examples/Models/ExampleFirTree.fbx
-  artifactKey: Guid(26daae648a43e4db88d0a47a293d545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween/Examples/Models/ExampleFirTree.fbx using Guid(26daae648a43e4db88d0a47a293d545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1c21be3b2af7cb519172dcc8ab468f3') in 0.0246761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/LeanTween/Examples/Models/Grid.fbx
-  artifactKey: Guid(cf8dd6c08e9ac4507bbbd1468b530d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween/Examples/Models/Grid.fbx using Guid(cf8dd6c08e9ac4507bbbd1468b530d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b7d0e52cfe353a3da9a0c686230475f') in 0.0219668 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Desert Pack/Models/DesertBoxFillerRed.fbx
-  artifactKey: Guid(af710ddf6d43ecd48bcbc7ca8ddffe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertBoxFillerRed.fbx using Guid(af710ddf6d43ecd48bcbc7ca8ddffe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18f62c21e0ade93024c2252b96d4c296') in 0.0313951 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 0.000036 seconds.
+  path: Assets/Office_Props/Materials/(Mat)Floor.mat
+  artifactKey: Guid(d06cbe6bddb870d438765bf1f774411d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Office_Props/Materials/(Mat)Floor.mat using Guid(d06cbe6bddb870d438765bf1f774411d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95bbf68f4123b6abc5aa21ec168c7581') in 0.0195611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Desert Pack/Models/DesertBoxFillerGreen.fbx
-  artifactKey: Guid(cca41beb45acc3944bd4fd10013102c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Pack/Models/DesertBoxFillerGreen.fbx using Guid(cca41beb45acc3944bd4fd10013102c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd29710988b7f99c824de3b1a40753293') in 0.0506801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  path: Assets/Office_Props/Materials/(Mat)GradientOrange.mat
+  artifactKey: Guid(fb698345bbbc4d74ba2ca7b2bb59eb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Office_Props/Materials/(Mat)GradientOrange.mat using Guid(fb698345bbbc4d74ba2ca7b2bb59eb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a252faf8bfc94bf56a3f113ab780891') in 0.0283434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.022497 seconds.
-  path: Assets/Office_Props/Models/(Msh)CeilingFan.fbx
-  artifactKey: Guid(b8382dad890a52e499e640be2fba6e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)CeilingFan.fbx using Guid(b8382dad890a52e499e640be2fba6e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5e61829ac894ba10bb744932c44bdb6') in 0.0358236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+  Time since last request: 0.000048 seconds.
+  path: Assets/Nest/Materials/Egg_Blue_Mat.mat
+  artifactKey: Guid(dfe6e2aade7a0f54d8cf4661af011c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nest/Materials/Egg_Blue_Mat.mat using Guid(dfe6e2aade7a0f54d8cf4661af011c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81f305f6f673557401d0b21df65bac3b') in 0.0214502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Office_Props/Models/(Msh)CeilingLight1.fbx
-  artifactKey: Guid(a3391ff75e6a3d847a21fe59dccd4a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)CeilingLight1.fbx using Guid(a3391ff75e6a3d847a21fe59dccd4a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99dcd92201e6d5686d1a87fd808d6db9') in 0.0289011 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+  Time since last request: 0.000034 seconds.
+  path: Assets/UniversalAssets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait ab.mat
+  artifactKey: Guid(dbc2ae6c61d51b04ea1a55fbeff6341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalAssets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait ab.mat using Guid(dbc2ae6c61d51b04ea1a55fbeff6341e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a7ef364510273c849accb57365cbdb2') in 0.0643726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002269 seconds.
-  path: Assets/Office_Props/Models/(Msh)CeilingLight2.fbx
-  artifactKey: Guid(db6ea0fd984528c49ab939f5eb5d660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)CeilingLight2.fbx using Guid(db6ea0fd984528c49ab939f5eb5d660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be7187fe3836ebcb954d85f4157c4940') in 0.0447804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Office_Props/Models/(Msh)Clock.fbx
-  artifactKey: Guid(538ebcc8575799746881a05c02d1ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)Clock.fbx using Guid(538ebcc8575799746881a05c02d1ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdc4f27070c8e47598a32223e042d3eb') in 0.077969 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003010 seconds.
-  path: Assets/Nature/Models/Bush_01.fbx
-  artifactKey: Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Bush_01.fbx using Guid(d8ea93d2d4757e444a5349f4bc849128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '734606b4589cb3f0e0e3492a06823e15') in 0.0349837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Nature/Models/Bush_02.fbx
-  artifactKey: Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Bush_02.fbx using Guid(ba52853a69186a841a52a9cc2e9b77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2221fbb9a49b955cb4b3815b4fb6677') in 0.0555342 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002883 seconds.
-  path: Assets/Nature/Models/Branch_01.fbx
-  artifactKey: Guid(5528351815fd4c04abf537f22c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Nature/Models/Branch_01.fbx using Guid(5528351815fd4c04abf537f22c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e41d4dc89726d97caaa980a5c0c74291') in 0.0223933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.361170 seconds.
-  path: Assets/Office_Props/Models/(Msh)BookPile3.fbx
-  artifactKey: Guid(cc31666f2d3c78648838b47abbc333f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Office_Props/Models/(Msh)BookPile3.fbx using Guid(cc31666f2d3c78648838b47abbc333f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '886b2354e4594c34e225067dac79b7c8') in 0.1218211 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 96
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.133854 seconds.
-  path: Assets/LeanTween/Examples/Models/DirectionalArrow.fbx
-  artifactKey: Guid(d47ae0396110840289d47476d8289fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LeanTween/Examples/Models/DirectionalArrow.fbx using Guid(d47ae0396110840289d47476d8289fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b71bd060880180eacb92a778023ac433') in 0.0336448 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075964 seconds.
-  path: Assets/Models/edison1joined.fbx
-  artifactKey: Guid(2967737cd35b30a4cb0dc625cf309284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/edison1joined.fbx using Guid(2967737cd35b30a4cb0dc625cf309284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2a38a49c94f2a0e158a57e85ee552f4') in 0.0369603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-AssetImportWorkerClient::OnTransportError - code=10054 error=Удаленный хост принудительно разорвал существующее подключение.
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
