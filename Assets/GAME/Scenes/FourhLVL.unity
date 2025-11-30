@@ -330,6 +330,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177202190}
   m_CullTransparentMesh: 1
+--- !u!1 &195150323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1275995219686538979, guid: 3d482510f7db22c47b57f489d1144be0, type: 3}
+  m_PrefabInstance: {fileID: 1229489320}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &226891951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1637,6 +1642,10 @@ PrefabInstance:
       propertyPath: Jump_Effect
       value: 
       objectReference: {fileID: 1285290139}
+    - target: {fileID: 6082454460888590621, guid: 3d482510f7db22c47b57f489d1144be0, type: 3}
+      propertyPath: _megaKnight
+      value: 
+      objectReference: {fileID: 195150323}
     - target: {fileID: 6082454460888590621, guid: 3d482510f7db22c47b57f489d1144be0, type: 3}
       propertyPath: _Setting_Canvas
       value: 

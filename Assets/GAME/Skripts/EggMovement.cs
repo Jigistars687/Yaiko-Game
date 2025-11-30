@@ -1,4 +1,5 @@
 using Unity.Cinemachine;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EggMovement : MonoBehaviour
@@ -20,6 +21,9 @@ public class EggMovement : MonoBehaviour
     [SerializeField] private GameObject _SoundExplosion;
     [SerializeField] private GameObject Jump_Effect;
     [SerializeField] private GameObject Exploison;
+
+    [Header("Skins")]
+    [SerializeField] private GameObject _megaKnight;
 
     private int jumpCount = 2;
     private float k_KeyHoldTime;
@@ -83,7 +87,6 @@ public class EggMovement : MonoBehaviour
         if (Jump_Effect != null)
             Jump_Effect.SetActive(false);
     }
-
     void OnKeyDown()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -95,6 +98,11 @@ public class EggMovement : MonoBehaviour
             }
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+        }
+
+        if ((Input.GetKey(KeyCode.M) & Input.GetKeyDown(KeyCode.K)) || ((Input.GetKey(KeyCode.M) & Input.GetKeyDown(KeyCode.K))))
+        {
+            _megaKnight.SetActive(true);
         }
 
         if (Input.GetKey(KeyCode.K))
