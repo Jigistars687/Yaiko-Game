@@ -24,6 +24,9 @@ public class EggMovement : MonoBehaviour
 
     [Header("Skins")]
     [SerializeField] private GameObject _megaKnight;
+    [SerializeField] private GameObject MorgenshternRight;
+    [SerializeField] private GameObject MorgenshternLeft;
+    [SerializeField] private GameObject BucketHelmet;
 
     private int jumpCount = 2;
     private float k_KeyHoldTime;
@@ -146,9 +149,14 @@ public class EggMovement : MonoBehaviour
             if (!meshRendererDisabled && elapsed >= 2f)
             {
                 var meshRenderer = gameObject.GetComponent<MeshRenderer>();
+                var ColiderBucket = BucketHelmet.GetComponent<MeshCollider>();
                 if (meshRenderer != null)
                     meshRenderer.enabled = false;
                 meshRendererDisabled = true;
+                MorgenshternLeft.SetActive(false);
+                MorgenshternRight.SetActive(false);
+                BucketHelmet.AddComponent<Rigidbody>();
+                ColiderBucket.enabled = true;
             }
             if (!objectDisabled && elapsed >= 7f)
             {
