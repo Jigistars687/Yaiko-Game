@@ -185,13 +185,16 @@ public class EggMovement : MonoBehaviour
 
     void Update()
     {
-        Move();
+        //Move();
         if (Input.GetKeyDown(KeyCode.Space))
             Jump();
         OnKeyDown();
         HandleExplosionTimers();
     }
-
+    private void FixedUpdate()
+    {
+        Move();
+    }
     void LateUpdate()
     {
         if (Jump_Effect != null)

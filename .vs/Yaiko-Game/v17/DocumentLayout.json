@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF8BB22C-C6AD-F548-6166-B27876CFFC06}|Assembly-CSharp.csproj|d:\\jigistar\\yaikogame-github\\yaiko-game\\assets\\skripts\\yaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF8BB22C-C6AD-F548-6166-B27876CFFC06}|Assembly-CSharp.csproj|solutionrelative:assets\\skripts\\yaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF8BB22C-C6AD-F548-6166-B27876CFFC06}|Assembly-CSharp.csproj|d:\\jigistar\\yaikogame-github\\yaiko-game\\assets\\game\\skripts\\eggmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8BB22C-C6AD-F548-6166-B27876CFFC06}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\skripts\\eggmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8BB22C-C6AD-F548-6166-B27876CFFC06}|Assembly-CSharp.csproj|d:\\jigistar\\yaikogame-github\\yaiko-game\\assets\\game\\skripts\\animsyaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8BB22C-C6AD-F548-6166-B27876CFFC06}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\skripts\\animsyaiko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF8BB22C-C6AD-F548-6166-B27876CFFC06}|Assembly-CSharp.csproj|d:\\jigistar\\yaikogame-github\\yaiko-game\\assets\\game\\skripts\\teleport_scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF8BB22C-C6AD-F548-6166-B27876CFFC06}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\skripts\\teleport_scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Yaiko.cs",
-              "DocumentMoniker": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\Assets\\Skripts\\Yaiko.cs",
-              "RelativeDocumentMoniker": "Assets\\Skripts\\Yaiko.cs",
-              "ToolTip": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\Assets\\Skripts\\Yaiko.cs",
-              "RelativeToolTip": "Assets\\Skripts\\Yaiko.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAYwHIAAAAFAAAAAAAAAA==",
+              "Title": "EggMovement.cs",
+              "DocumentMoniker": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\Assets\\GAME\\Skripts\\EggMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\GAME\\Skripts\\EggMovement.cs",
+              "ToolTip": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\Assets\\GAME\\Skripts\\EggMovement.cs",
+              "RelativeToolTip": "Assets\\GAME\\Skripts\\EggMovement.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowEoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T15:10:17.325Z",
+              "WhenOpened": "2025-12-02T14:28:38.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TELEPORT_SCRIPTS.cs",
+              "DocumentMoniker": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\Assets\\GAME\\Skripts\\TELEPORT_SCRIPTS.cs",
+              "RelativeDocumentMoniker": "Assets\\GAME\\Skripts\\TELEPORT_SCRIPTS.cs",
+              "ToolTip": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\Assets\\GAME\\Skripts\\TELEPORT_SCRIPTS.cs",
+              "RelativeToolTip": "Assets\\GAME\\Skripts\\TELEPORT_SCRIPTS.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T14:17:28.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimsYaiko.cs",
+              "DocumentMoniker": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\Assets\\GAME\\Skripts\\AnimsYaiko.cs",
+              "RelativeDocumentMoniker": "Assets\\GAME\\Skripts\\AnimsYaiko.cs",
+              "ToolTip": "D:\\JIGISTAR\\YaikoGame-Github\\Yaiko-Game\\Assets\\GAME\\Skripts\\AnimsYaiko.cs",
+              "RelativeToolTip": "Assets\\GAME\\Skripts\\AnimsYaiko.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T14:16:47.961Z",
               "EditorCaption": ""
             }
           ]
