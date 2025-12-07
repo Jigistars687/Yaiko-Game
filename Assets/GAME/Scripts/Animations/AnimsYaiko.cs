@@ -6,14 +6,7 @@ public class AnimsYaiko : MonoBehaviour
 
     //private int AnimsCount = 0;
     //private int MaxAnims = 1;
-    void Start()
-    {
-        
-    }
-    void Update()
-    {
-        
-    }
+    
     //void SetAnimTag()
     //{
     //    if (CanAnim())

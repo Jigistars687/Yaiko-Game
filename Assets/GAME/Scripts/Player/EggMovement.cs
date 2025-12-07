@@ -35,12 +35,10 @@ public class EggMovement : MonoBehaviour
     private float explosionActivationTime = 0f;
     private bool meshRendererDisabled = false;
     private bool objectDisabled = false;
-    private TELEPORT_SCRIPTS teleportScripts;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        teleportScripts = GetComponent<TELEPORT_SCRIPTS>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -90,6 +88,7 @@ public class EggMovement : MonoBehaviour
         if (Jump_Effect != null)
             Jump_Effect.SetActive(false);
     }
+    
     void OnKeyDown()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
@@ -139,8 +138,7 @@ public class EggMovement : MonoBehaviour
             k_KeyHoldTime = 0f;
         }
     }
-
-
+    
     private void HandleExplosionTimers()
     {
         if (explosionActivated)
@@ -175,12 +173,6 @@ public class EggMovement : MonoBehaviour
         {
             ResetJumpCount();
         }
-
-        // Телепорт только если есть TELEPORT_SCRIPTS и нужный тег
-        if (teleportScripts != null)
-        {
-            teleportScripts.TryTeleport(collision);
-        }
     }
 
     void Update()
@@ -195,6 +187,7 @@ public class EggMovement : MonoBehaviour
     {
         Move();
     }
+    
     void LateUpdate()
     {
         if (Jump_Effect != null)

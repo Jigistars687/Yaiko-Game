@@ -3,17 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class MusicLooper : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
-    [Header("Список треков (5 штук)")]
+    public static AudioManager Instance;
+    
+    [Header("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ (5 пїЅпїЅпїЅпїЅ)")]
     public List<AudioClip> tracks;
+    
+    [SerializeField] private AudioSource _winSound; 
 
     private AudioSource audioSource;
     private int currentTrackIndex = 0;
     private Coroutine loopCoroutine;
 
-    void Awake()
+    private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);            
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
         audioSource = GetComponent<AudioSource>();
         audioSource.loop = false;
     }
@@ -22,7 +36,7 @@ public class MusicLooper : MonoBehaviour
     {
         if (tracks == null || tracks.Count == 0)
         {
-            Debug.LogError("Не задан список треков!");
+            Debug.LogError("пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ!");
             return;
         }
         loopCoroutine = StartCoroutine(PlayTracksLoop());
@@ -39,16 +53,8 @@ public class MusicLooper : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision collision)
+    public void PlayWinSound()
     {
-        if (collision.gameObject.CompareTag("Finish"))
-        {
-            if (loopCoroutine != null)
-            {
-                StopCoroutine(loopCoroutine);
-                loopCoroutine = null;
-            }
-            audioSource.Stop();
-        }
+        _winSound.Play(); 
     }
 }
