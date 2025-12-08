@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineRotationComposer
   Composition:
-    ScreenPosition: {x: 0, y: 0}
+    ScreenPosition: {x: 0.0005208254, y: 0}
     DeadZone:
       Enabled: 0
       Size: {x: 0.2, y: 0.2}
@@ -165,7 +165,7 @@ MonoBehaviour:
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: 0, y: -0.04, z: 0}
+  TargetOffset: {x: 0, y: 0.15, z: 0}
   Damping: {x: 0.2, y: 0.2}
   Lookahead:
     Enabled: 0
@@ -210,6 +210,8 @@ MonoBehaviour:
       Owner: {fileID: 883506732033475987}
       Enabled: 1
       Input:
+        InputAction: {fileID: 0}
+        Gain: 1
         LegacyInput: Mouse X
         LegacyGain: 200
         CancelDeltaTime: 0
@@ -221,6 +223,8 @@ MonoBehaviour:
       Owner: {fileID: 883506732033475987}
       Enabled: 1
       Input:
+        InputAction: {fileID: 0}
+        Gain: 1
         LegacyInput: Mouse Y
         LegacyGain: -200
         CancelDeltaTime: 0
@@ -232,6 +236,8 @@ MonoBehaviour:
       Owner: {fileID: 883506732033475987}
       Enabled: 1
       Input:
+        InputAction: {fileID: 0}
+        Gain: 1
         LegacyInput: Mouse ScrollWheel
         LegacyGain: -200
         CancelDeltaTime: 0
@@ -239,6 +245,8 @@ MonoBehaviour:
       Driver:
         AccelTime: 0
         DecelTime: 0
+  PlayerIndex: -1
+  AutoEnableInputs: 1
 --- !u!114 &6361544209946628550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,11 +261,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineDeoccluder
   CollideAgainst:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 3
   IgnoreTag: 
   TransparentLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   MinimumDistanceFromTarget: 0.3
   AvoidObstacles:
     Enabled: 1

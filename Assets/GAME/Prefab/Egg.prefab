@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2904571815924204603}
   - component: {fileID: 7777595802396063246}
   - component: {fileID: 1159730622558570815}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sparks smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4806,7 +4806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7913382147099662536}
   - component: {fileID: 1017122332165849605}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4946,7 +4946,7 @@ GameObject:
   - component: {fileID: 5630819032931740777}
   - component: {fileID: 8459531781139746028}
   - component: {fileID: 8591130076664048931}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: DynamitExplosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9915,7 +9915,7 @@ GameObject:
   - component: {fileID: 2060295952853975419}
   - component: {fileID: 1368826944371703124}
   - component: {fileID: 2546289678324900720}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sparks small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14708,7 +14708,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1769045107990140165}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MegaKnightEggSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14745,7 +14745,7 @@ GameObject:
   - component: {fileID: 5756989525741377229}
   - component: {fileID: 6962572289988061916}
   - component: {fileID: 3116705337494137510}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BuckedHelmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14852,7 +14852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6057160047037802134}
   - component: {fileID: 6992828652048351964}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jump_Effect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14904,7 +14904,7 @@ GameObject:
   - component: {fileID: 7187893520008932180}
   - component: {fileID: 9204566697428521780}
   - component: {fileID: 5801175914525853645}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19802,7 +19802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6161922235749474179}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EggExplosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19838,7 +19838,7 @@ GameObject:
   - component: {fileID: 8931096200988055215}
   - component: {fileID: 4133121961924846105}
   - component: {fileID: 5145160539474096301}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19924,7 +19924,7 @@ GameObject:
   - component: {fileID: 2765910041245550685}
   - component: {fileID: 4542944379158106779}
   - component: {fileID: 6278101556759315651}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24647,7 +24647,7 @@ GameObject:
   - component: {fileID: 3331320352471266256}
   - component: {fileID: 5266744584746339987}
   - component: {fileID: 6312324997324001716}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29481,7 +29481,7 @@ GameObject:
   - component: {fileID: 4691826867236415552}
   - component: {fileID: 1880450350995577877}
   - component: {fileID: 3484925180225015327}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sub smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34146,7 +34146,7 @@ GameObject:
   - component: {fileID: 1294400532334764291}
   - component: {fileID: 7937583550746325988}
   - component: {fileID: 681971973321185841}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34267,7 +34267,7 @@ GameObject:
   - component: {fileID: 4645470215739414663}
   - component: {fileID: 3113072778874173388}
   - component: {fileID: 6374711343910135704}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WhitePart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39174,7 +39174,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9002682350824123160}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MegaKnightSkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39209,7 +39209,7 @@ GameObject:
   - component: {fileID: 5811784979510617570}
   - component: {fileID: 2321546997781265152}
   - component: {fileID: 2897690955732372227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44113,7 +44113,7 @@ GameObject:
   - component: {fileID: 9066936443148820387}
   - component: {fileID: 2614719935250070854}
   - component: {fileID: 2588172728633907835}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44222,7 +44222,7 @@ GameObject:
   - component: {fileID: 3119102177357036647}
   - component: {fileID: 9087239173679602066}
   - component: {fileID: 4738740329420466548}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Egg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44326,7 +44326,7 @@ GameObject:
   - component: {fileID: 8660983918482050367}
   - component: {fileID: 2627234292227990131}
   - component: {fileID: 4488034591378446061}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ExplosionEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44471,7 +44471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4944066517679644650}
   - component: {fileID: 4377291333701725603}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ModelParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44528,7 +44528,7 @@ GameObject:
   - component: {fileID: 1988222171886626565}
   - component: {fileID: 6036096035107037758}
   - component: {fileID: 2679092252136010778}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: YellowPart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49436,7 +49436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7775988194151072313}
   - component: {fileID: 2413394139112082792}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MegaKnightSound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49566,7 +49566,7 @@ GameObject:
   - component: {fileID: 1970906855238449673}
   - component: {fileID: 4225501711769302696}
   - component: {fileID: 345377135963138766}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
