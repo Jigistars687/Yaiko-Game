@@ -61,14 +61,19 @@
     <Analyzer Include="D:\UnityEditors\6000.0.58f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FXV\VolumeFog\Editor\fxvIntroWindow.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
     <Compile Include="Assets\UnityTechnologies\DefaultPlayables\ScreenFader\Editor\ScreenFaderDrawer.cs" />
     <Compile Include="Assets\UnityTechnologies\DefaultPlayables\TransformTween\Editor\TransformTweenDrawer.cs" />
     <Compile Include="Assets\UnityTechnologies\DefaultPlayables\LightControl\Editor\LightControlDrawer.cs" />
     <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
+    <Compile Include="Assets\FXV\VolumeFog\Editor\fxvVolumeFogEditor.cs" />
     <Compile Include="Assets\UnityTechnologies\DefaultPlayables\TextSwitcher\Editor\TextSwitcherDrawer.cs" />
     <Compile Include="Assets\UnityTechnologies\DefaultPlayables\Editor\TimelinePlayableWizard.cs" />
     <Compile Include="Assets\UnityTechnologies\DefaultPlayables\TimeDilation\Editor\TimeDilationDrawer.cs" />
+    <Compile Include="Assets\FXV\VolumeFog\Editor\fxvVolumeFogGroupEditor.cs" />
+    <Compile Include="Assets\FXV\VolumeFog\URP\Editor\fxvIntroWindowURP.cs" />
+    <Compile Include="Assets\FXV\VolumeFog\Editor\fxvVolumeFogShaderInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
